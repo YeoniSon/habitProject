@@ -1,8 +1,10 @@
 rootProject.name = 'habitProject'
 
-//include 'common'  // 공통 모듈
-//include 'user' // 인증 / 회원 모듈
-//include 'board' // 게시판 / 공지사항 모듈
-//include 'interaction' // 상호작용 모듈
-//include 'chat' // 채팅 모듈
-//include 'api' // 실행 모듈
+include 'common'  // 공통 모듈
+include 'user' // 인증 / 회원 모듈
+include 'board' // 게시판 / 공지사항 모듈
+include 'interaction' // 상호작용 모듈
+include 'chat' // 채팅 모듈
+include 'api' // 실행 모듈
+
+

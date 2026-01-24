@@ -38,9 +38,9 @@
 ### 구현 기능
 
 - 설정
-- [ ] Swagger
-- [ ] Security
-- [ ] MailSender
+- [x] Swagger
+- [x] Security
+- [x] MailSender
 
 - 회원 
 - [ ] 회원가입

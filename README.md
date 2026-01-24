@@ -41,6 +41,8 @@
 - [x] Swagger
 - [x] Security
 - [x] MailSender
+- [x] PasswordEncoder
+- [ ] Jwt Filter
 
 - 회원 
 - [ ] 회원가입

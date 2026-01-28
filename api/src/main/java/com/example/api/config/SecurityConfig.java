@@ -18,6 +18,8 @@ public class SecurityConfig {
         http
                 // RESET API니까 CSRF 비활성화
                 .csrf(csrf -> csrf.disable())
+				// H2 콘솔용 frame 허용
+				.headers(headers -> headers.frameOptions(frame -> frame.sameOrigin()))
 
                 //기본 로그인 폼 비활성화
                 .formLogin(formLogin -> formLogin.disable())
@@ -30,7 +32,9 @@ public class SecurityConfig {
                         .requestMatchers(
                                 "/swagger-ui/**",
                                 "/v3/api-docs/**",
-                                "/swagger-ui.html"
+								"/swagger-ui.html",
+								// h2-console 접근 허용
+								"/h2-console/**"
                         ).permitAll()
 
                         // 나머지는 인증 필요
